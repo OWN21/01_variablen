@@ -13,8 +13,17 @@ console.log(familyName);
 console.log(firstName + familyName);
 console.log(firstName + " "+ familyName);
 */
- 
+ /*
 let firstName, familyName;
 firstName = prompt("Bitte Vornamen eingeben");
 familyName = prompt("Bitten Namen eingeben");
 console.log("Hallo, " + firstName + " "+ familyName);
+*/
+
+let test; // Deklaration
+test = "hi"; // Datenzuweisung String
+test = 2;  // Datentyp Number
+test = true;  // Datentyp Boolean
+
+console.log("Typ: " + typeof test);
+console.log("Inhalt: " + test);
