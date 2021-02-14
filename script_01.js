@@ -13,4 +13,8 @@ console.log(familyName);
 console.log(firstName + familyName);
 console.log(firstName + " "+ familyName);
 */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+ 
+let firstName, familyName;
+firstName = prompt("Bitte Vornamen eingeben");
+familyName = prompt("Bitten Namen eingeben");
+console.log("Hallo, " + firstName + " "+ familyName);
